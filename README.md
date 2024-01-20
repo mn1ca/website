@@ -1,4 +1,4 @@
-# mn1ca.neocities.org
+# [mn1ca.neocities.org](https://mn1ca.neocities.org)
 :shrimp: my personal portfolio for art! still a big WIP, and on the back burner for now.
 
 ### :speaking_head: fun fact
