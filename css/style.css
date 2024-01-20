@@ -13,8 +13,6 @@
 
 
 /**body**/
-
-
 body {
     background-color:#fceadc;
     cursor: url(https://mn1ca.neocities.org/picture/fish-cursor.png), pointer;
@@ -130,8 +128,7 @@ a:hover .hide {
     width:207px;
     height: 50px;
     
-    padding-left: 18px;
-    padding-top:20px;
+    padding: 20px 9px 0px 9px;
     
     border: 1px solid #c1331c;
 }
