@@ -1,0 +1,175 @@
+/*...........................................................
+
+		HTML COMMENT BOX!!!!!!!!!!!!!
+
+..........................*/
+
+
+#HCB_comment_box{
+   width: 80%;
+   height: auto!important;
+   margin: auto;
+   text-align: left!important;
+}
+
+
+#HCB_comment_box #comments_list{
+   flex: initial!important;
+}
+
+.comment{
+   margin-right: 0.75em;
+}
+
+.comment blockquote{
+	max-width: 40ch;
+}
+
+.comment p{
+   line-height: 1.25!important;
+}
+
+#HCB_comment_box, .btn, input#hcb_submit, .hcb-comment-tb button{
+	font-family: var(--body-font)!important;
+}
+
+/*..........................
+
+	date
+
+..........................*/
+
+span.date{
+	font-size: 0.6em!important;
+	margin-left: 0.5em;
+    color: #c1331c!important;
+}
+
+/*..........................
+
+	author name + decorations
+
+..........................*/
+
+span.author, b.author-name{
+	font-size: 1.05em!important;
+	font-family: var(--heading-font)!important;
+    text-transform:uppercase;
+    font-size:16px!important;
+}
+
+span.author, b.author-name, .btn, input#hcb_submit{
+	color: #c1331c!important;
+	/* text-shadow: var(--text-shadow-white)!important; */
+}
+
+
+
+/*..........................
+
+	the actual comment itself
+
+..........................*/
+
+p.hcb-comment-body{
+	font-size: 1em!important;
+}
+
+#HCB_comment_box .comment{
+	margin-bottom: 1em!important;
+}
+
+#HCB_comment_box > p:last-of-type{
+	margin: 1em auto;
+	font-size: 1em!important;
+}
+
+/*..........................
+
+		like/reply/flag
+
+..........................*/
+
+.hcb-comment-tb{
+	text-align: right!important;
+	max-width: initial!important;
+}
+
+.hcb-comment-tb button{
+	/* font-size: 1em!important;	 */
+	color: #c1331c!important;
+}
+
+.hcb-comment-tb button:hover{
+	color: #c1331c!important;
+    cursor: url(https://mn1ca.neocities.org/picture/fish-cursor2.png), pointer!important;
+}
+
+/*..........................
+
+		submit button
+
+..........................*/
+
+.btn, input#hcb_submit{
+    
+    background: #c1331c!important;
+    color: white!important;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    border:1px solid #c1331c!important;
+    border-radius:0px!important;
+    margin: 0.5em auto!important;
+    width: auto!important;
+    height: auto!important;
+    padding: 0.5rem 1.25rem!important;
+	text-transform:uppercase;
+    text-align: center;
+	 cursor: url(https://mn1ca.neocities.org/picture/fish-cursor2.png), pointer!important;
+    
+}
+
+.btn{
+	font-size: 0.9em!important;
+}
+
+input#hcb_submit{
+	font-size: 0.8em!important;
+	margin: 1em 0 1.5em 0!important;
+}
+
+/*..........................
+
+	the forms where ppl type
+
+..........................*/
+
+#HCB_comment_box #hcb_form_content,
+#HCB_comment_box #hcb_form_email,
+#HCB_comment_box #hcb_form_name,
+#HCB_comment_box #hcb_form_website{
+	font-family: var(--body-font)!important;
+    padding: 0.25em!important;
+    font-size: 1em!important;
+    color:#c1331c!important;
+  }
+
+
+/*..........................
+
+	hides built in title
+
+..........................*/
+
+#HCB_comment_box h3{
+	display: none;
+}
+
+#hcb_msg{
+   display: none;
+}
+
+#hcb-icon {
+    display: none;
+}

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+
+<!--feel free to poke around my source code~, though it's a bit of a mess!! -->
+
+
+<html>
+    <head>
+        <meta name="viewport" content="height=device-height, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>mn1ca/創建</title>
+        <link href="https://mn1ca.neocities.org/css/style.css" rel="stylesheet" type="text/css" media="all">
+        <script src="https://kit.fontawesome.com/f936906ae0.js" crossorigin="anonymous"></script>
+        
+        <!-- favicon -->
+        <link rel="icon" type="image/x-icon" href="https://mn1ca.neocities.org/picture/fish icon.png">
+    
+    </head>
+    
+    
+<body>
+<div id='wrapper'>
+    
+    <span style='display: none'>This website was handmade with spite and anguish and serves as a personal portfolio for my artwork and other miscellaneous creations. Unless I've done something wrong, you shouldn't be able to see this text; it's flavor for the Google search result preview. </span>
+
+    <div class='gallery'>
+        
+        
+        
+    <!--
+
+    reminder to self about column functionality
+
+    A   1   X       0   A   1         
+    B   2   Y   >   X   B   2
+    C   3   Z       Y   C   3
+
+
+    -->
+        
+        
+    <!-- COLUMN --> <div class='column'>
+        
+        
+        <div class='art-display' onclick='openModal();currentSlide(11)'>
+            <img src='https://mn1ca.neocities.org/picture/art/2023/231102_fairy-face.png'>
+            <br><b>23.11.02</b> fairy face
+        </div>
+        
+        
+        <div class='art-display' onclick='openModal();currentSlide(8)'>
+            <img src='https://mn1ca.neocities.org/picture/art/2023/230530_dan-heng.png'>
+            <br><b>23.05.30</b> dan heng [honkai star rail]
+        </div>
+        
+        
+        <div class='art-display' onclick='openModal();currentSlide(5)'>
+            <img src='https://mn1ca.neocities.org/picture/art/2023/230311_plumeria.png'>
+            <br><b>23.03.11</b> plumeria [pkmn s&m]
+        </div>
+        
+        
+        <div class='art-display' onclick='openModal();currentSlide(2)'>
+            <img src='https://mn1ca.neocities.org/picture/art/2023/230217_ganyu.png'>
+            <br><b>23.02.17</b> happy birthday moon! [genshin]
+        </div>
+        
+    <!-- COLUMN --></div>
+        
+        
+        
+        
+        
+    <!--COLUMN--><div class='column'>
+               
+        <div class='art-display' onclick='openModal();currentSlide(10)'>
+            <img src='https://mn1ca.neocities.org/picture/art/2023/230908_astronaut.png'>
+            <br><b>23.09.08</b> astronaut girl 
+        </div>
+        
+        <div class='art-display' onclick='openModal();currentSlide(7)'>
+            <img src='https://mn1ca.neocities.org/picture/art/2023/230525_girl.png'>
+            <br><b>23.05.25</b> girl
+        </div>
+        
+                
+        <div class='art-display' onclick='openModal();currentSlide(4)'>
+            <img src='https://mn1ca.neocities.org/picture/art/2023/230309_jinafire.png'>
+            <br><b>23.03.09</b> jinafire
+        </div>
+        
+        
+        
+        <div class='art-display' onclick='openModal();currentSlide(1)'>
+            <img src='https://mn1ca.neocities.org/picture/art/2023/230210_golfing.png'>
+            <br><b>23.02.10</b> golfing
+        </div>
+
+        
+    <!-- COLUMN --> </div>
+    
+        
+        
+        
+        
+    <!-- COLUMN --> <div class='column'>
+    
+        
+        <div class='art-display' onclick='openModal();currentSlide(9)'>
+            <img src='https://mn1ca.neocities.org/picture/art/2023/230816_bread.png'>
+            <br><b>23.08.16</b> breadluvr logo
+        </div>
+        
+                
+        <div class='art-display' onclick='openModal();currentSlide(6)'>
+            <img src='https://mn1ca.neocities.org/picture/art/2023/230516_jester.png'>
+            <br><b>23.05.16</b> jester in the sky
+        </div>
+        
+        
+        <div class='art-display' onclick='openModal();currentSlide(3)'>
+            <img src='https://mn1ca.neocities.org/picture/art/2023/230307_bus-sticker.png'>
+            <br><b>23.03.07</b> bus sticker
+        </div>
+        
+    <!-- COLUMN --> </div>
+          
+  
+        
+    </div> <!--gallery-->
+    
+    
+    
+    <!--BUTTON-->
+    <div class='button'>
+        <a href="https://mn1ca.neocities.org/">
+            <img src='https://mn1ca.neocities.org/picture/buttons/mn1ca.gif' style="image-rendering: pixelated;"></a>
+
+        &#160;&#160;
+        <textarea readonly cols=9> &lt;a href="https://mn1ca.neocities.org/"&gt;&lt;img src="https://mn1ca.neocities.org/picture/buttons/mn1ca.gif" style="image-rendering: pixelated"&gt;&lt;/a&gt;</textarea>
+    </div>
+     
+    
+    <div class='head' style='top:320px'>LINK ME!</div>
+    
+    
+    
+    
+    
+  <!--NAVBAR-->  
+    <div class='navbar'>
+    
+    <a href='https://mn1ca.neocities.org/about'>about the webmaster
+        <span class='hide'>
+            self-indulgent exposition
+        </span>
+    </a><br>
+    
+        
+    <a href='https://mn1ca.neocities.org/misc'>links & site misc
+        <span class='hide'>elsewhere on the web</span>
+    </a><br>
+        
+        
+    <a href='https://mn1ca.neocities.org/music'>music archive
+         <span class='hide'>all the songs i’ve ever loved</span>
+    </a>
+
+    
+    </div>
+    <div class='head' style='top:425px'>NAVBAR</div>
+    
+    
+    
+    
+    
+    
+<!--SORTING-->
+    
+    <div class='sort-label' style='width:135px'>
+        <span style='font-size:14px'>VIEWING BY&#160;</span>
+        <label for='type'>type</label>
+    </div>
+
+    
+    <input type='radio' name='artselect' id='yo' class='art_radio'>
+    <div class='tabs'>
+    <span style='position: absolute; top: 70px; right:10px'>welcome to my site! click the images to view in full</span>
+    </div>
+    
+    
+    
+    <!-- TYPE SORT -->
+    <input type='radio' name='artselect' id='type' class='art_radio' checked=''>
+    <div class='tabs'>
+        <a href='https://mn1ca.neocities.org'><b style='position: absolute; top:125px; left:565px; text-shadow: #ea893c 1px 0 10px; font-size:14px'>X</b></a>
+    
+        
+        <!-- 1. traditional--> 
+        <a href='https://mn1ca.neocities.org/type/traditional'>
+        <div class='category-label' style='right:20px'>
+            <img src='https://mn1ca.neocities.org/picture/site/categories/traditional.png' style='margin-top:-2px'> 
+        </div>
+        </a>
+        <!-----------------------------------------------------------------------------------> 
+
+        
+        
+        <!-- 2. digital (active) -->
+        <div class='active-category-sublabel' style='right:80px'>digital</div>
+        <div class='active-category-label' style='right:100px'>
+            <img src='https://mn1ca.neocities.org/picture/site/categories/digital.png' style='padding-left:2px'>    
+        </div>
+        <!-----------------------------------------------------------------------------------> 
+        
+        
+        
+
+        <!-- 3. jewelry -->
+        <a href='https://mn1ca.neocities.org/type/jewelry'>
+        <div class='category-label' style='right:180px'>
+            <img src='https://mn1ca.neocities.org/picture/site/categories/jewelry.png'> 
+        </div>
+        </a>
+        <!-----------------------------------------------------------------------------------> 
+   
+    
+    </div>
+    
+    
+    
+    
+    
+
+<!--MUSIC-->
+    <span style='font-size:14px; position: absolute; left:420px; top:25px'>
+        CURRENTLY LISTENING TO</span>
+    <br><span style='position: absolute; left:420px; top:40px' class='songtitle'></span>    
+    <div id="musicplayer">
+        <tr>  
+            <td>
+            <div class="playpause-track" onclick="playpauseTrack()" ><i class="fas fa-play"></i></div>
+            </td>
+        </tr>
+
+        <div class="seeking">
+            <div class="current-time">00:00</div>
+ 
+            <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+ 
+            <div class="total-duration">0:00</div>
+        </div>
+ 
+        <audio id="music" src=""></audio> 
+    </div>
+    
+    
+    
+    
+    
+    
+<!--IMGS-->   
+
+    
+    <img src='https://mn1ca.neocities.org/picture/site/mn1ca.png' height='200px' style='position:absolute; top:80px; left:90px; transform: rotate(-0.25deg)'>
+    
+    <img src='https://mn1ca.neocities.org/picture/site/marker.png' height='80px' style='position:absolute; top:340px; left:-240px; transform: rotate(-96deg)'>
+    
+    <img src='https://mn1ca.neocities.org/picture/site/earbuds.png' height='290px' style='position:absolute; top:10px; left:319.6px; transform: rotate(-4.1deg); filter: sepia(5%) brightness(105%)'>
+    
+    <img src='https://mn1ca.neocities.org/picture/site/gone-fishing.png' height='465px' style='position:absolute; top:225px; left:265px; pointer-events: none'>
+    
+    
+    
+
+    
+
+    
+    
+<!--POPOUTS-->
+<div id="myModal" class="popout-background">
+    
+    <div class="popout-content">
+
+    <!-----------------------------------------------------------------------------------> 
+    <div class="images">
+    <img src="https://mn1ca.neocities.org/picture/art/2023/230210_golfing.png">
+    
+        <div class='caption-container'>
+            <h>23.02.10<br>golfing</h>
+            <hr>             
+            surrealist horror (?) comic based on a dream i had. done in clip studio paint with the milli pen brush & typeset in adobe garamond pro.
+        </div>
+    
+    </div>
+    <!----------------------------------------------------------------------------------->
+    <div class="images">
+    <img src="https://mn1ca.neocities.org/picture/art/2023/230217_ganyu.png">
+        <div class='caption-container'>   
+            <h>23.02.17<br>happy birthday moon! [genshin]</h>
+            <hr>             
+            birthday gift of a ganyu illustration. done in clip studio paint.
+        </div>
+    </div>
+    <!----------------------------------------------------------------------------------->
+    <div class="images">
+    <img src="https://mn1ca.neocities.org/picture/art/2023/230307_bus-sticker.png">
+        <div class='caption-container'>   
+            <h>23.03.07<br>bus sticker</h>
+            <hr>             
+            sticker design for ucd’s 109th picnic day. done in clip studio paint with oil paint brush.
+        </div>
+    </div>
+    <!----------------------------------------------------------------------------------->
+    <div class="images">
+    <img src="https://mn1ca.neocities.org/picture/art/2023/230309_jinafire.png">
+        <div class='caption-container'>   
+            <h>23.03.09<br>jinafire [monster high]</h>
+            <hr>             
+            done in procreate with 6B pencil brush.
+        </div>
+    </div>
+    <!----------------------------------------------------------------------------------->
+    <div class="images">
+    <img src="https://mn1ca.neocities.org/picture/art/2023/230311_plumeria.png">
+        <div class='caption-container'>   
+            <h>23.03.11<br>plumeria [pkmn s&m]</h>
+            <hr>             
+            done in procreate with 6B pencil brush.
+        </div>
+    </div>
+    <!----------------------------------------------------------------------------------->
+    <div class="images">
+    <img src="https://mn1ca.neocities.org/picture/art/2023/230516_jester.png">
+        <div class='caption-container'>   
+            <h>23.05.16<br>jester in the sky</h>
+            <hr>             
+            i’ve recently developed an addiction to suitu, a mobile dress-up game, & in particular the jester-themed outfit set. done in procreate with spectra & soft airbrush.
+        </div>
+    </div>
+     <!----------------------------------------------------------------------------------->
+    <div class="images">
+    <img src="https://mn1ca.neocities.org/picture/art/2023/230525_girl.png">
+        <div class='caption-container'>   
+            <h>23.05.25<br>girl</h>
+            <hr>             
+            rkgk redraw of a sketch i made in 2019 (4 years ago! wow!). both probably took ~1 hour, so it’s interesting to see the difference in style. original done in drawcast (rip); new done in procreate with spectra brush.
+        </div>
+    </div>   
+     <!----------------------------------------------------------------------------------->
+    <div class="images">
+    <img src="https://mn1ca.neocities.org/picture/art/2023/230530_dan-heng.png">
+        <div class='caption-container'>   
+            <h>23.05.30<br>dan heng [hsr]</h>
+            <hr>             
+            let it be known that as of time of writing i am too mentally stable to be playing any mhy game. this is for my friend moon. done in procreate with spectra brush.
+        </div>
+    </div>       
+    <!----------------------------------------------------------------------------------->
+    <div class="images">
+    <img src="https://mn1ca.neocities.org/picture/art/2023/230816_bread.png">
+        <div class='caption-container'>   
+            <h>23.08.16<br>breadluvr logo</h>
+            <hr>             
+            little croissant girl logo for <a href='https://instagram.com/breadluvr.art' target="_blank">breadluvr on instagram</a>. done in procreate with spectra brush.
+        </div>
+    </div>      
+<!----------------------------------------------------------------------------------->
+    <div class="images">
+    <img src="https://mn1ca.neocities.org/picture/art/2023/230908_astronaut.png" style='transform: rotate()'>
+        <div class='caption-container'>   
+            <h>23.09.08<br>astronaut girl</h>
+            <hr>
+            went to a screenprinting studio with my cousin & doodled a little astronaut girl for it. done in procreate with spectra brush. lines from john keats’ ode to a mockingbird.
+        </div>
+    </div>       
+<!----------------------------------------------------------------------------------->
+    <div class="images">
+    <img src="https://mn1ca.neocities.org/picture/art/2023/231102_fairy-face.png">
+        <div class='caption-container'>   
+            <h>23.11.02<br>fairy face</h>
+            <hr>
+            not beating the can’t draw a background allegations but i did try more dramatic lighting!... can’t win ’em all... done in procreate with 6b pencil & spectra brush.
+        </div>
+    </div> 
+<!----------------------------------------------------------------------------------->
+    <div class="images">
+    <img src="https://mn1ca.neocities.org/picture/art/2023/">
+        <div class='caption-container'>   
+            <h>x<br>x</h>
+            <hr>
+            text
+        </div>
+    </div>
+ <!----------------------------------------------------------------------------------->       
+        
+</div>    
+    
+
+    
+</div> <!-- wrapper -->
+
+<script type='text/javascript' src='https://mn1ca.neocities.org/js/music.js'></script>
+<script type='text/javascript' src='https://mn1ca.neocities.org/js/pop-out.js'></script>
+</body></html>
+        
+        
+        
+        
+        
+        
+        

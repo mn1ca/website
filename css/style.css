@@ -1,0 +1,509 @@
+/** font stuff **/
+@font-face {
+    font-family: 'National Park';
+    src: url('https://mn1ca.neocities.org/font/sailec/Sailec-Light.woff');
+    font-style: regular;
+            }
+
+@font-face {
+    font-family: National Park;
+    src: url('https://mn1ca.neocities.org/font/sailec/Sailec Bold.woff');
+    font-style: bold;
+}
+
+
+/**body**/
+
+
+body {
+    background-color:#fceadc;
+    cursor: url(https://mn1ca.neocities.org/picture/fish-cursor.png), pointer;
+    
+    /**font defaults**/
+    font-family: "National Park  Light";
+    font-size: 18px;
+    color: #c1331c;
+    overflow: auto;
+    height:97.5vh;
+    width:99.5vw;
+    
+}
+
+h {
+    font-size: 30px;
+    font-weight: bold;
+    line-height:90%;
+}
+
+#wrapper {
+    width: 100%;
+    max-width:1280px;
+    margin: auto;
+    cursor: url(https://mn1ca.neocities.org/picture/fish-cursor.png), pointer;
+    
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+
+
+/**links**/
+    a:visited, a:link {
+    color: #c1331c;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: url(https://mn1ca.neocities.org/picture/fish-cursor2.png), pointer;
+    text-shadow: #ea893c 1px 0 10px;
+}
+
+a:hover .hide {
+    display: block;
+    
+    width:175px;
+    height:auto;
+      
+    background-color: #c1331c;
+    color: white;
+
+    padding:5px;
+    padding:5px;
+    
+    margin-top:-10px;
+    margin-bottom:-20px;
+    
+   
+    position: relative;
+    left:0px;
+    top:10px;
+    
+    font-size:14px;
+    line-height:100%;
+}
+
+.hide {
+    display: none;
+}
+
+/**gallery**/
+
+.gallery {
+    position: absolute;
+    top:100px;
+    right:10px;
+    
+    width:775px;
+    height:500px;
+    
+    padding:40px;
+    padding-top:60px;
+    
+    overflow: auto;
+    
+    border: 1px solid #c1331c;
+}
+
+
+.head {
+    position: absolute;
+    left: 110px;
+    
+    width:  60px;
+    height: 15px;
+    
+    padding:5px;
+    text-align:center;
+    
+    font-size:14px;
+    
+    border: 1px solid #c1331c;
+    background-color: white;
+}
+
+.button {
+    position: absolute;
+    top: 335px;
+    left: 100px;
+    
+    width:207px;
+    height: 50px;
+    
+    padding-left: 18px;
+    padding-top:20px;
+    
+    border: 1px solid #c1331c;
+}
+
+.navbar {
+    position: absolute;
+    top: 440px;
+    left: 100px;
+    
+    width:185px;
+    height:185px;
+    
+    padding:20px;
+    padding-top:55px;
+    
+    border: 1px solid #c1331c;
+    
+    font-size:25px;
+    line-height:120%;
+}
+
+
+
+.center {
+    margin: auto;
+}
+
+
+/* sort */
+
+.sort-label {
+    position: absolute;
+    top:115px;
+    left:435px;
+    
+    width:160px;
+    height:25px;
+    
+    padding:5px;
+    
+    border: 1px solid #c1331c;
+    background-color: white;
+}
+
+.category-label {
+    width:70px;
+    height:57px;
+    
+    position: absolute;
+    top: 20px;
+    
+    text-align: center;
+    padding-top:8px;
+    
+    border-radius:2px;
+    
+    border: 1px solid #c1331c;
+    background-color: #ea893c;
+    
+    cursor: url(https://mn1ca.neocities.org/picture/fish-cursor2.png), pointer;
+}
+
+
+.category-label img {
+    
+    width:55px;
+    height:55px;
+    filter: brightness(1000%);
+    object-fit: cover;
+
+}
+
+.category-label:hover {
+    filter: brightness(120%);
+}
+
+
+
+
+
+
+.active-category-label {
+    width:70px;
+    height:65px;
+    
+    position: absolute;
+    top: 20px;
+    
+    padding-top:8px;
+    
+    text-align: center;
+    
+    justify-content: center;
+    
+    border: 1px solid #ea893c;
+    border-bottom:0px;
+    border-radius:2px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+    background-color: white;
+    
+}
+
+.active-category-label img {
+    
+    width:55px;
+    height:55px;
+    object-fit: cover;
+}
+
+.active-category-sublabel {
+    width:100px;
+    height:45px;
+    
+    position: absolute;
+    top: 90px;
+    
+    transform: rotate(90deg);
+    
+    padding-left:10px;
+    padding-top:25px;
+    
+    border-radius:25px;
+    
+    border: 1px solid #ea893c;
+    background-color: white;
+    color: #ea893c;
+    
+    text-align: center;
+    
+}
+
+
+
+/* gallery contents */
+
+.column {
+    width: 244px;
+    height: auto;
+        
+    margin-right:10px;
+    margin-top:10px;
+    margin-bottom:-40px;
+
+    
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.art-display {
+    width:214px;
+    height:auto;
+    flex-shrink: 0;
+    
+    margin-bottom:15px;
+    
+    padding:15px;
+    
+    border:1px solid #c1331c;
+    
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    
+    cursor: url(https://mn1ca.neocities.org/picture/fish-cursor2.png), pointer;
+}
+
+.art-display img {
+    width:244px;
+    
+    object-fit: cover;
+    
+    margin-bottom:10px;
+    margin-left:-15px;
+    margin-top:-15px;
+}
+
+.art-display:hover {
+    transform: scale(102%);
+    transition-duration:0.4s;
+}
+
+
+
+
+
+/* pop-out */
+.popout-background {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  height:100%;
+    width:100%;
+    
+    
+  overflow: auto;
+  background-color: rgba(0,0,0, 0.8);
+}
+
+.popout-content {
+    
+        height: 600px;
+    width: fit-content;
+    justify-content: center;
+  position: relative;
+  margin: auto;
+
+
+}
+    
+.popout-content img {
+    align-items: center;
+    height:600px;
+}
+
+.images {
+  display: none;
+}
+
+.caption-container {
+    width:225px;
+    height:500px;
+    
+    display: inline-block;
+    
+    padding:20px;
+    padding-top:80px;
+    padding-left: 20px;
+    
+    margin:10px;
+    margin-top:0px;
+    margin-left:35px;
+    
+    vertical-align: top;
+
+    background-color: white;
+}
+
+
+
+
+/**radio**/
+
+label {
+    cursor: url(https://mn1ca.neocities.org/picture/fish-cursor2.png), pointer;
+    
+}
+
+.tabs, .art_radio {
+    display: none;
+}
+
+.art_radio:checked+.tabs {
+    display: initial;
+}
+
+
+
+
+    #musicplayer{; /* background color of player */
+        
+        width:200px;
+        position: absolute;
+        left:490px;
+        top:68px;
+        
+     /* width of the player */
+    }
+
+ 
+    .seeking{
+        display:flex;
+        justify-content: space-evenly;
+        padding:5px; /* padding around seeking bar */
+    }
+ 
+    .current-time{
+        padding-right:5px;
+        font-size:14px;
+    }
+ 
+    .total-duration{
+        padding-left:5px;    
+        font-size:14px;
+    }
+
+    i.fas.fa-pause, i.fas.fa-play {
+        color:#c1331c; /* color of controls */
+        position: absolute;
+        left:-15px;
+        top:6px;
+        
+        font-size:14px;
+        
+        cursor: url('https://mn1ca.neocities.org/picture/fish-cursor2.png'), pointer;
+    
+    }
+    
+    input[type=range] {
+        -webkit-appearance: none;
+        width: 100%;
+        background-color:transparent;
+        cursor: url('https://mn1ca.neocities.org/picture/fish-cursor.png'), pointer;
+    }
+    
+    input[type=range]:focus {
+        outline: none;
+    }
+    
+    /* settings for chrome browsers */
+    input[type=range]::-webkit-slider-runnable-track {
+        height: 1px; /* thickness of seeking track */
+        background: #c1331c; /* color of seeking track */
+        cursor: url('https://mn1ca.neocities.org/picture/fish-cursor2.png'), pointer;
+    }
+    
+    input[type=range]::-webkit-slider-thumb {
+        height: 10px; /* height of seeking square */
+        width: 10px; /* width of seeking square */
+        border-radius: 5px; /* change to 5px if you want a circle seeker */
+        background: #c1331c; /* color of seeker square */
+        -webkit-appearance: none;
+        margin-top: -4.5px; 
+    }
+    
+    /* settings for firefox browsers */
+    input[type=range]::-moz-range-track {
+        width: 100%;
+        height: 2px; /* thickness of seeking track */
+        background: #E74492; /* color of seeking track */
+    }
+    
+    input[type=range]::-moz-range-thumb {
+        height: 10px; /* height of seeking square */
+        width: 10px; /* width of seeking square */
+        border-radius: 0px; /* change to 5px if you want a circle seeker */
+        background: #E74492; /* color of seeker square */
+        border:none;
+    }
+
+
+
+
+/**scrollbar**/
+::-webkit-scrollbar {
+      width:0;
+      height: 0;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #FEE8DD; 
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #FFFFFF; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #c1331c; 
+    }
+    
+        hr {
+      height:1px;
+      border-width:0;
+      background-color:#F47A63;;
+    }
+    
